@@ -1,4 +1,4 @@
-package com.dj.proxy.normalProxy;
+package com.dj.proxy.staticProxy;
 
 public class RealImage implements Image {
  

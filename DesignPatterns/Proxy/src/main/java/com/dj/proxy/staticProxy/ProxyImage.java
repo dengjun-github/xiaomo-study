@@ -1,4 +1,4 @@
-package com.dj.proxy.normalProxy;
+package com.dj.proxy.staticProxy;
 
 public class ProxyImage implements Image{
  
@@ -14,6 +14,8 @@ public class ProxyImage implements Image{
       if(realImage == null){
          realImage = new RealImage(fileName);
       }
+      System.out.println("before display");
       realImage.display();
+      System.out.println("after display");
    }
 }
